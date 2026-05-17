@@ -218,7 +218,7 @@ if __name__ == "__main__":
     d = 1
     n_list = [379, 5201, 16347]
     dataset_names = ["ca-netscience", "musae-squirrel", "bio-WormNet-v3"]
-    for i in range(1, 2):
+    for i in range(1, 3):
         dataset_name = dataset_names[i]
         patterns = ['triangle', 'edge', '2star']
         for j in range(0, 3):

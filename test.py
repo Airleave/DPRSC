@@ -245,7 +245,7 @@ def preprocessing_time_test(datasetName, n, d):
             })
         
 if __name__ == "__main__":
-    # d = 1
+    # d = 2
     # dataset_names = ["ca-netscience"]
     # n_list = [379]
     # m_list = [379]
@@ -259,7 +259,7 @@ if __name__ == "__main__":
     max_workers_lists = [[120, 120, 120], [75, 62, 16]]
     lim_Q = [5, 6]
     
-    for i in range(0, 1):
+    for i in range(0, 2):
         preprocessing_time_test(dataset_names[i], n_list[i], d)
         query_time_test(dataset_names[i], n_list[i], m_list[i], d)
         implement_epsilon_test(dataset_names[i], n_list[i], d, max_workers_lists[i])

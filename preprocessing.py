@@ -120,7 +120,7 @@ def calc_f1_triangle(edges, deg, n):
 
 def graph_data_load(datasetName, pattern, n, logger, d):
     graph_file_name = f'{datasetName}/{datasetName}_graph.txt'
-    pattern_file_name = f'{datasetName}/{pattern}/{datasetName}_{pattern}_{n}.txt'
+    pattern_file_name = f'{datasetName}/{datasetName}_{pattern}_{n}.txt'
     attr_file_name = f'{datasetName}/{datasetName}_attribute_d={d}.txt'
     # attr_file_name = f'{datasetName}/{datasetName}_attribute_original.txt'
     
