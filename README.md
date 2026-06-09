@@ -1,6 +1,6 @@
 # Differentially Private Range Subgraph Counting
 
-This is the codes and data of the ICML'26 paper _"Differentially Private Range Subgraph Counting"_ by Xian Chen, Ruobing Bai, and Pan Peng.
+This is the codes and data of the ICML'26 paper _"Differentially Private Range Subgraph Counting"_ by Xian Chen, Ruobing Bai, and Pan Peng. [![arXiv](https://img.shields.io/badge/arXiv-2606.08179-b31b1b.svg)](https://arxiv.org/abs/2606.08179) [![OpenReview](https://img.shields.io/badge/OpenReview-ICML%202026-8c1b13.svg)](https://openreview.net/forum?id=QYpByrxSTg)
 
 ## Dataset
 
